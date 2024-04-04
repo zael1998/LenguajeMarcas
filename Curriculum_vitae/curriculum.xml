@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo.css" type="text/css"?>
+<curriculum>
+    <datos_personales>
+        <nombre>Óscar</nombre>
+        <apellidos>Pereiro Millán</apellidos>
+        <año_de_nacimiento>15/10/1998</año_de_nacimiento>
+    </datos_personales>
+    <detalles>
+      <residencia>
+        <calle>Doutor Maceira 10 5B, </calle>
+        <ciudad>Madrid</ciudad>
+        <país>España</país>
+      </residencia>
+    <datos_contacto>
+        <telefono>xxx-xx-xx-xx</telefono>
+        <email>xxxx@gmail.com</email>
+        <linkedin>lucknezz</linkedin>
+    </datos_contacto>
+    </detalles>
+    <descripcion>
+        Soy una persona que se adapta con facilidad a nuevas situaciones, considero que soy una persona que se comunica de forma efectiva con el resto de compañeros, resuelvo los problemas de manera efiicaz...
+    </descripcion>
+    <competencias>
+        <nombre>Lenguaje java:</nombre>
+        <nivel> medio</nivel>
+        <nombre>Word:</nombre>
+        <nivel>alto</nivel>
+        <nombre>CSS:</nombre>
+        <nivel>bajo</nivel>
+    </competencias>
+    <formacion>
+        <titulacion>Tecnico superior en DAM</titulacion>
+        <centro>IES Fernando VI</centro>
+        <año_de_titulacion>21/6/2025</año_de_titulacion>
+        <titulacion>Tecnico en aire acondicionado</titulacion>
+        <centro>Ies Eduardo Pondal</centro>
+        <año_de_titulacion>02/3/2017</año_de_titulacion>
+    </formacion>
+    <experiencia_trabajo>
+        <puesto>Camarero de sala</puesto>
+        <empresa>Gastoph</empresa>
+        <año_inicio>2015</año_inicio>
+        <año_fin>2016</año_fin>
+        <puesto>Camarero de barra</puesto>
+        <empresa>Horchatería Daniel</empresa>
+        <año_inicio>2022</año_inicio>
+        <año_fin>2023</año_fin>
+    </experiencia_trabajo>
+</curriculum>
