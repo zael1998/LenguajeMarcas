@@ -1,0 +1,17 @@
+<viaje_turistico>
+    
+    <cliente>
+        <nombre>Kamilly</nombre>
+        <apellido>Brito da Mata</apellido>
+    <fechas>
+        <fecha_inicio>09/02/2024</fecha_inicio>
+        <fecha_fin>15/02/2024</fecha_fin>
+    </fechas>
+    <origen_viaje>Madrid</origen_viaje>
+    <datos_viaje>
+        <nombre_ciudad>Santa Cruz de Tenerife</nombre_ciudad>
+        <nombre_hotel>Silken Atlántida</nombre_hotel>
+         <numero_de_coches>7</numero_de_coches>
+    </datos_viaje>
+    </cliente>
+</viaje_turistico>
