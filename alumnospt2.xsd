@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alumnos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="1" maxOccurs="2" name="nombre "/>
+                <xs:element minOccurs="1" maxOccurs="2" name="direccion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="1" maxOccurs="3" name="calle" type="xs:string"/>
+                            <xs:element minOccurs="1" maxOccurs="3" name="numero" type="xs:int"/>
+                            <xs:element minOccurs="1" maxOccurs="3" name="ciudad" type="xs:string"/>
+                            <xs:element minOccurs="1" maxOccurs="3" name="provincia">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Badajoz"></xs:enumeration>
+                                        <xs:enumeration value="Caceres"></xs:enumeration>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="telefono">
+        <xs:simpleType>
+            <xs:restriction base="xs:int">
+                <xs:pattern value="[0-9]*"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:attribute name="dni">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"> 
+                <xs:pattern value="[0-9]{8}[A-Z]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+</xs:schema>
+
+<!--El elemento número será un entero entre 0 y 500.
+El elemento teléfono será un entero y dicho elemento podrá aparecer entre 0 y 5 veces.
+El elemento dirección podrá aparecer 1 o 2 veces.
+El elemento provincia sólo podrá contener Badajoz o Cáceres. Modifica el alumno Juan Andrés para que su provincia sea Cáceres.
+El atributo dni será una plantilla de 8 números y una letra mayúscula.-->
